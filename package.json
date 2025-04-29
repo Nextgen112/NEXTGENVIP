@@ -1,10 +1,6 @@
 {
-  "name": "warcommander",
-  "version": "1.0.0",
-  "description": "WarCommander Game Server",
-  "main": "server.js",
   "scripts": {
+    "build": "webpack --mode production",
     "start": "node server.js"
-  },
-  "dependencies": {}
+  }
 }
