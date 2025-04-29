@@ -1,15 +1,10 @@
 {
-  "name": "warcommander-backend",
-  "version": "1.0.0",
-  "main": "server.js",
-  "type": "module",
+  "name": "warcommander",
+  "main": "warcommander.js",
   "scripts": {
-    "start": "node server.js",        
-    "build": "echo 'Building app...'", 
-    "migrate": "echo 'Running migrations...'"  
+    "start": "node warcommander.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "express": "^4.18.2"  
   }
 }
